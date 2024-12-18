@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mental Health Support Platform</title>
+    <link rel="stylesheet" href="Mental Health.css">
+    <script defer src="Mental Health.js"></script>
+    <a href="Mental Health Login.html" class="btn">Log In</a>
+    
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav>
+            <div class="logo">MindConnect</div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#share">Share Your Story</a></li>
+                <li><a href="#stories">Inspiring Stories</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Share, Heal, Inspire</h1>
+            <p>A safe space to connect, share experiences, and grow together.</p>
+            <a href="#share" class="btn">Share Your Story</a>
+        </div>
+    </section>
+
+    <!-- Share Your Story -->
+    <section id="share" class="share">
+        <h2>Share Your Experience</h2>
+        <p>Your story can inspire others. Share your thoughts, struggles, or advice here.</p>
+        <form id="story-form">
+            <textarea id="story" placeholder="Write your story..." rows="5"></textarea>
+            <input type="text" id="name" placeholder="Your Name (Optional)">
+            <button type="submit" class="btn">Submit</button>
+        </form>
+    </section>
+
+    <!-- Inspiring Stories -->
+    <section id="stories" class="stories">
+        <h2>Inspiring Stories</h2>
+        <div id="story-list" class="story-list">
+            <!-- User stories will appear here -->
+        </div>
+    </section>
+
+    <!-- Contact Us -->
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <p>Have suggestions or need support? Reach out to us.</p>
+        <a href="mailto:support@mindconnect.com" class="btn">Email Us</a>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 MindConnect | Your Space for Healing</p>
+    </footer>
+</body>
+</html>
